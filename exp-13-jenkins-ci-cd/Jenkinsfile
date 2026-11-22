@@ -1,0 +1,60 @@
+// Declarative pipeline: checkout -> test -> build image -> push -> deploy
+// Required Jenkins setup: Docker available on the agent, credentials:
+//   'dockerhub-creds' (Username with password)   'kubeconfig' (Secret file for the target cluster)
+pipeline {
+  agent any
+  options { timestamps(); disableConcurrentBuilds() }
+  triggers { githubPush() }                 // build on every push (needs the GitHub webhook, see README)
+  environment {
+    IMAGE = "YOUR_DOCKERHUB_USER/jenkins-demo"
+    TAG   = "${env.BUILD_NUMBER}"
+  }
+  stages {
+    stage('Checkout') { steps { checkout scm } }
+
+    stage('Test') {
+      steps {
+        dir('exp-13-jenkins-ci-cd/app') {
+          sh '''
+            python3 -m venv .venv
+            . .venv/bin/activate
+            pip install -r requirements.txt pytest
+            pytest -q --junitxml=test-results.xml
+          '''
+        }
+      }
+      post { always { junit 'exp-13-jenkins-ci-cd/app/test-results.xml' } }
+    }
+
+    stage('Build Docker image') {
+      steps { sh 'docker build -t $IMAGE:$TAG -t $IMAGE:latest exp-13-jenkins-ci-cd/app' }
+    }
+
+    stage('Push image') {
+      when { branch 'main' }
+      steps {
+        withCredentials([usernamePassword(credentialsId: 'dockerhub-creds', usernameVariable: 'U', passwordVariable: 'P')]) {
+          sh 'echo "$P" | docker login -u "$U" --password-stdin && docker push $IMAGE:$TAG && docker push $IMAGE:latest'
+        }
+      }
+    }
+
+    stage('Deploy') {
+      when { branch 'main' }
+      steps {
+        withCredentials([file(credentialsId: 'kubeconfig', variable: 'KUBECONFIG')]) {
+          // Any cloud works (EKS / GKE / AKS) as long as the kubeconfig points to it.
+          sh '''
+            kubectl set image deployment/jenkins-demo jenkins-demo=$IMAGE:$TAG --record=false || \
+              kubectl apply -f exp-13-jenkins-ci-cd/k8s/deployment.yaml
+            kubectl rollout status deployment/jenkins-demo --timeout=120s
+          '''
+        }
+      }
+    }
+  }
+  post {
+    success { echo "Build #${env.BUILD_NUMBER} deployed ${env.IMAGE}:${env.TAG}" }
+    failure { echo 'Pipeline failed - see the stage logs' }
+  }
+}

@@ -1,0 +1,4 @@
+# Each module has an owner who is auto-requested for review
+/auth/      @memberA
+/payments/  @memberB
+/ui/        @memberC
