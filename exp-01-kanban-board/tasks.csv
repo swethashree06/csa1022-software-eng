@@ -1,0 +1,7 @@
+Summary,Description,Assignee,Priority,Status
+"Set up project repository","Sample task for the Kanban lab",Alice,High,To Do
+"Design database schema","Sample task for the Kanban lab",Bob,High,To Do
+"Implement login page","Sample task for the Kanban lab",Carol,Medium,To Do
+"Write unit tests for login","Sample task for the Kanban lab",Dave,Medium,To Do
+"Prepare project documentation","Sample task for the Kanban lab",Eve,Low,To Do
+"Configure CI pipeline","Sample task for the Kanban lab",Bob,Medium,To Do

@@ -1,0 +1,54 @@
+{
+  "name": "SE Lab \u2013 Kanban Board",
+  "columns": [
+    {
+      "name": "To Do",
+      "tasks": [
+        {
+          "id": "KAN-1",
+          "title": "Set up project repository",
+          "assignee": "Alice",
+          "priority": "High"
+        },
+        {
+          "id": "KAN-2",
+          "title": "Design database schema",
+          "assignee": "Bob",
+          "priority": "High"
+        },
+        {
+          "id": "KAN-3",
+          "title": "Implement login page",
+          "assignee": "Carol",
+          "priority": "Medium"
+        },
+        {
+          "id": "KAN-4",
+          "title": "Write unit tests for login",
+          "assignee": "Dave",
+          "priority": "Medium"
+        },
+        {
+          "id": "KAN-5",
+          "title": "Prepare project documentation",
+          "assignee": "Eve",
+          "priority": "Low"
+        },
+        {
+          "id": "KAN-6",
+          "title": "Configure CI pipeline",
+          "assignee": "Bob",
+          "priority": "Medium"
+        }
+      ]
+    },
+    {
+      "name": "In Progress",
+      "tasks": []
+    },
+    {
+      "name": "Done",
+      "tasks": []
+    }
+  ]
+}
