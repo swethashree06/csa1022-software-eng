@@ -1,0 +1,8 @@
+Summary,Issue Type,Priority,Story Points,Description,Sprint
+"Create user registration page",Story,Highest,5,"As a visitor I can register with email and password",Sprint 1
+"Develop API for login",Story,Highest,5,"POST /login returns a JWT for valid credentials",Sprint 1
+"Design database schema",Task,High,3,"Users, roles, sessions tables",Sprint 1
+"Build user profile page",Story,Medium,3,"Logged-in users can view/edit their profile",Sprint 1
+"Implement password reset by email",Story,Medium,5,"Reset link emailed, expires in 30 minutes",Sprint 1
+"Write unit tests for authentication",Task,High,2,"Cover register and login happy/failure paths",
+"Set up CI pipeline",Task,Low,2,"Run lint and tests on every push",

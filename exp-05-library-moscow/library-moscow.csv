@@ -1,0 +1,11 @@
+ID,Requirement,User/stakeholder impact (1-5),Feasibility – time/budget/resources (1-5),MoSCoW category,Justification
+R1,Search books by title and author,5,5,Must have,Core function: every user needs to find books; low effort with a database index.
+R2,Online book reservation system,5,4,Must have,Main reason for going online; moderate effort (reservation queue + holds).
+R3,Monthly reports on borrowed books for administrators,4,4,Should have,Important for admins and decisions but the library can run without it initially; simple queries.
+R4,Email notifications for overdue books,4,4,Should have,Reduces late returns and manual follow-up; needs an SMTP service but is cheap.
+R5,QR code scanning for borrowing and returning,4,3,Could have,"Speeds up the desk, but barcode/manual ID entry works; needs scanner hardware/camera support."
+R6,User-friendly dashboard for librarians,5,4,Must have,Librarians are the primary operators; usability directly affects daily work.
+R7,Allow users to review and rate books,2,4,Could have,Nice engagement feature; no effect on core circulation.
+R8,Integrate a chatbot for user assistance,2,2,Won't have (this release),"Costly (NLP, training, hosting) with low immediate value; revisit later."
+R9,Develop a mobile app version,3,2,Won't have (this release),Large separate effort; a responsive web UI covers mobile users for now.
+R10,Multi-language support,3,3,Could have,Helpful for diverse users; add via i18n files after the core is stable.

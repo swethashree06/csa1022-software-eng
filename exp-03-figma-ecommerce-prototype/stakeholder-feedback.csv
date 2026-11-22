@@ -1,0 +1,6 @@
+Stakeholder,Role,Concern,Prototype response,Decision,Status
+Priya,Product Owner,Wants fast path to checkout,"Cart reachable from every screen (bottom tab)",Option A navigation,Approved
+Ravi,Marketing,Wants banners and promotions on home,"Home keeps one banner slot above fold",Hybrid: banner + tabs,Approved
+Meena,Designer,Wants a clean minimal look,"Reduced colours; 8pt grid; reuse components",Style guide v1,Approved
+Karthik,Developer,Wants components reusable and simple to build,"Auto-layout components map 1:1 to code",Component library,Approved
+Anita,Customer support,Wants clear returns information,"Add 'Returns' link on product screen",Add to backlog,Open

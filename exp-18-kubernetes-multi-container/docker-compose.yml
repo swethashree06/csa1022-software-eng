@@ -1,0 +1,15 @@
+# Local run of the same three tiers:  docker compose up --build   ->  http://localhost:8080
+services:
+  database:
+    image: postgres:16-alpine
+    environment: {POSTGRES_DB: appdb, POSTGRES_USER: appuser, POSTGRES_PASSWORD: apppass}
+    volumes: [pgdata:/var/lib/postgresql/data]
+  backend:
+    build: ./backend
+    depends_on: [database]
+  frontend:
+    build: ./frontend
+    ports: ["8080:80"]
+    depends_on: [backend]
+volumes:
+  pgdata:

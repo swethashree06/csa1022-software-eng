@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="530" font-family="sans-serif" font-size="13">
+<rect width="100%" height="100%" fill="#f4f5f7"/>
+<text x="30" y="30" font-size="18" font-weight="bold">Bus Ticket Booking – Low-fidelity wireframes</text>
+<rect x="30" y="55" width="240" height="440" rx="18" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="30" y="55" width="240" height="40" rx="18" fill="#0052cc"/>
+<text x="150.0" y="80" fill="#fff" text-anchor="middle" font-weight="bold">1. Search</text>
+<text x="46" y="126" fill="#333">From</text>
+<rect x="44" y="138" width="212" height="32" rx="6" fill="#fff" stroke="#999"/>
+<text x="54" y="159" fill="#888">Chennai</text>
+<text x="46" y="196" fill="#333">To</text>
+<rect x="44" y="208" width="212" height="32" rx="6" fill="#fff" stroke="#999"/>
+<text x="54" y="229" fill="#888">Bengaluru</text>
+<text x="46" y="266" fill="#333">Date</text>
+<rect x="44" y="278" width="212" height="32" rx="6" fill="#fff" stroke="#999"/>
+<text x="54" y="299" fill="#888">25 Nov 2026</text>
+<text x="46" y="336" fill="#333">Passengers</text>
+<rect x="44" y="348" width="212" height="32" rx="6" fill="#fff" stroke="#999"/>
+<text x="54" y="369" fill="#888">1</text>
+<rect x="44" y="390" width="212" height="36" rx="8" fill="#36b37e"/>
+<text x="150.0" y="413" fill="#fff" text-anchor="middle" font-weight="bold">Search Buses</text>
+<rect x="300" y="55" width="240" height="440" rx="18" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="300" y="55" width="240" height="40" rx="18" fill="#0052cc"/>
+<text x="420.0" y="80" fill="#fff" text-anchor="middle" font-weight="bold">2. Bus list</text>
+<text x="316" y="126" fill="#333">Chennai → Bengaluru</text>
+<rect x="314" y="138" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="324" y="160">SRS Travels  22:00  Rs 850</text>
+<rect x="314" y="202" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="324" y="224">KPN Travels  22:30  Rs 920</text>
+<rect x="314" y="266" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="324" y="288">VRL Travels  23:00  Rs 780</text>
+<text x="316" y="346" fill="#333">Filter: AC | Sleeper | Price</text>
+<rect x="570" y="55" width="240" height="440" rx="18" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="570" y="55" width="240" height="40" rx="18" fill="#0052cc"/>
+<text x="690.0" y="80" fill="#fff" text-anchor="middle" font-weight="bold">3. Seat select</text>
+<text x="586" y="126" fill="#333">Choose your seat</text>
+<rect x="584" y="138" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="594" y="160">[ ] [ ]   [x] [ ]</text>
+<rect x="584" y="202" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="594" y="224">[ ] [x]   [ ] [ ]</text>
+<rect x="584" y="266" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="594" y="288">[ ] [ ]   [ ] [ ]</text>
+<text x="586" y="346" fill="#333">Selected: 2B   Rs 850</text>
+<rect x="584" y="358" width="212" height="36" rx="8" fill="#36b37e"/>
+<text x="690.0" y="381" fill="#fff" text-anchor="middle" font-weight="bold">Continue</text>
+<rect x="840" y="55" width="240" height="440" rx="18" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="840" y="55" width="240" height="40" rx="18" fill="#0052cc"/>
+<text x="960.0" y="80" fill="#fff" text-anchor="middle" font-weight="bold">4. Passenger</text>
+<text x="856" y="126" fill="#333">Passenger details</text>
+<rect x="854" y="138" width="212" height="32" rx="6" fill="#fff" stroke="#999"/>
+<text x="864" y="159" fill="#888">Full name</text>
+<rect x="854" y="180" width="212" height="32" rx="6" fill="#fff" stroke="#999"/>
+<text x="864" y="201" fill="#888">Age</text>
+<rect x="854" y="222" width="212" height="32" rx="6" fill="#fff" stroke="#999"/>
+<text x="864" y="243" fill="#888">Phone</text>
+<rect x="854" y="264" width="212" height="32" rx="6" fill="#fff" stroke="#999"/>
+<text x="864" y="285" fill="#888">Email</text>
+<rect x="854" y="306" width="212" height="36" rx="8" fill="#36b37e"/>
+<text x="960.0" y="329" fill="#fff" text-anchor="middle" font-weight="bold">Proceed to Pay</text>
+<rect x="1110" y="55" width="240" height="440" rx="18" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="1110" y="55" width="240" height="40" rx="18" fill="#0052cc"/>
+<text x="1230.0" y="80" fill="#fff" text-anchor="middle" font-weight="bold">5. Confirmation</text>
+<text x="1126" y="126" fill="#333">Booking confirmed!</text>
+<rect x="1124" y="138" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="1134" y="160">PNR: BK12345</text>
+<rect x="1124" y="202" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="1134" y="224">2B | 22:00 | SRS Travels</text>
+<rect x="1124" y="266" width="212" height="36" rx="8" fill="#36b37e"/>
+<text x="1230.0" y="289" fill="#fff" text-anchor="middle" font-weight="bold">Download Ticket</text>
+</svg>

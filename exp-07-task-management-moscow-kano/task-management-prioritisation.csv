@@ -1,0 +1,13 @@
+ID,Requirement / feature,MoSCoW,Kano category,Rationale,Suggested Jira priority,Jira labels
+T1,User login,Must have,Basic (must-be),Users expect secure access; missing it makes the product unusable,Highest,"moscow-must, kano-basic"
+T2,Role assignment (admin / member),Must have,Basic (must-be),Permissions are needed to control who can assign or edit tasks,High,"moscow-must, kano-basic"
+T3,Task creation,Must have,Basic (must-be),Core purpose of the system,Highest,"moscow-must, kano-basic"
+T4,Task assignment to team members,Must have,Basic (must-be),Core purpose; satisfaction rises only if done well but is expected,High,"moscow-must, kano-basic"
+T5,Task priority levels,Should have,Performance (one-dimensional),Better prioritisation → proportionally higher satisfaction,High,"moscow-should, kano-performance"
+T6,Deadlines / due dates,Should have,Performance (one-dimensional),"The more reliable the deadlines, the happier the team",High,"moscow-should, kano-performance"
+T7,"Progress tracking (status, % complete)",Should have,Performance (one-dimensional),Visible progress improves planning,Medium,"moscow-should, kano-performance"
+T8,Progress reports / export,Could have,Performance (one-dimensional),"Useful for managers, can be added after core release",Medium,"moscow-could, kano-performance"
+T9,Deadline reminders / notifications,Could have,Excitement (attractive),"Not expected, but delights users when present",Low,"moscow-could, kano-excitement"
+T10,Dashboard with charts,Could have,Excitement (attractive),Adds delight; not essential for basic operation,Low,"moscow-could, kano-excitement"
+T11,AI task suggestions,Won't have (this release),Excitement (attractive),"High cost, uncertain value for a small team",Lowest,"moscow-wont, kano-excitement"
+T12,Dark mode,Won't have (this release),Indifferent,Users do not care much either way,Lowest,"moscow-wont, kano-indifferent"

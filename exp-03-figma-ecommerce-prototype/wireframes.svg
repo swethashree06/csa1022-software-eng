@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1110" height="530" font-family="sans-serif" font-size="13">
+<rect width="100%" height="100%" fill="#f4f5f7"/>
+<text x="30" y="30" font-size="18" font-weight="bold">E-Commerce App – Option A (Bottom tabs) vs Option B (Card feed)</text>
+<rect x="30" y="55" width="240" height="440" rx="18" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="30" y="55" width="240" height="40" rx="18" fill="#0052cc"/>
+<text x="150.0" y="80" fill="#fff" text-anchor="middle" font-weight="bold">Home – Option A</text>
+<rect x="44" y="110" width="212" height="32" rx="6" fill="#fff" stroke="#999"/>
+<text x="54" y="131" fill="#888">Search products</text>
+<text x="46" y="168" fill="#333">Categories: Men Women Kids</text>
+<rect x="44" y="180" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="54" y="202">Banner – Winter Sale</text>
+<rect x="44" y="244" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="54" y="266">Trending: Sneakers Rs 2,499</text>
+<text x="46" y="324" fill="#333">[Home] [Cart] [Account]</text>
+<rect x="300" y="55" width="240" height="440" rx="18" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="300" y="55" width="240" height="40" rx="18" fill="#0052cc"/>
+<text x="420.0" y="80" fill="#fff" text-anchor="middle" font-weight="bold">Home – Option B</text>
+<rect x="314" y="110" width="212" height="32" rx="6" fill="#fff" stroke="#999"/>
+<text x="324" y="131" fill="#888">Search products</text>
+<rect x="314" y="152" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="324" y="174">Sneakers  Rs 2,499</text>
+<rect x="314" y="216" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="324" y="238">Backpack  Rs 1,299</text>
+<rect x="314" y="280" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="324" y="302">Watch  Rs 3,999</text>
+<text x="316" y="360" fill="#333">Hamburger menu top-left</text>
+<rect x="570" y="55" width="240" height="440" rx="18" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="570" y="55" width="240" height="40" rx="18" fill="#0052cc"/>
+<text x="690.0" y="80" fill="#fff" text-anchor="middle" font-weight="bold">Product</text>
+<rect x="584" y="110" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="594" y="132">Product image</text>
+<text x="586" y="190" fill="#333">Sneakers – Rs 2,499</text>
+<text x="586" y="218" fill="#333">Size: 7 8 9 10</text>
+<rect x="584" y="230" width="212" height="36" rx="8" fill="#36b37e"/>
+<text x="690.0" y="253" fill="#fff" text-anchor="middle" font-weight="bold">Add to Cart</text>
+<rect x="840" y="55" width="240" height="440" rx="18" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="840" y="55" width="240" height="40" rx="18" fill="#0052cc"/>
+<text x="960.0" y="80" fill="#fff" text-anchor="middle" font-weight="bold">Cart</text>
+<rect x="854" y="110" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="864" y="132">Sneakers x1  Rs 2,499</text>
+<rect x="854" y="174" width="212" height="54" rx="8" fill="#eef2ff" stroke="#99a"/>
+<text x="864" y="196">Backpack x1  Rs 1,299</text>
+<text x="856" y="254" fill="#333">Total: Rs 3,798</text>
+<rect x="854" y="266" width="212" height="36" rx="8" fill="#36b37e"/>
+<text x="960.0" y="289" fill="#fff" text-anchor="middle" font-weight="bold">Checkout</text>
+</svg>

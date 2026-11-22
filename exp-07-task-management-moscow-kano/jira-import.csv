@@ -1,0 +1,13 @@
+Summary,Issue Type,Priority,Labels,Description
+"User login",Story,Highest,"moscow-must kano-basic","MoSCoW: Must have; Kano: Basic (must-be). Users expect secure access; missing it makes the product unusable"
+"Role assignment (admin / member)",Story,High,"moscow-must kano-basic","MoSCoW: Must have; Kano: Basic (must-be). Permissions are needed to control who can assign or edit tasks"
+"Task creation",Story,Highest,"moscow-must kano-basic","MoSCoW: Must have; Kano: Basic (must-be). Core purpose of the system"
+"Task assignment to team members",Story,High,"moscow-must kano-basic","MoSCoW: Must have; Kano: Basic (must-be). Core purpose; satisfaction rises only if done well but is expected"
+"Task priority levels",Story,High,"moscow-should kano-performance","MoSCoW: Should have; Kano: Performance (one-dimensional). Better prioritisation → proportionally higher satisfaction"
+"Deadlines / due dates",Story,High,"moscow-should kano-performance","MoSCoW: Should have; Kano: Performance (one-dimensional). The more reliable the deadlines, the happier the team"
+"Progress tracking (status, % complete)",Story,Medium,"moscow-should kano-performance","MoSCoW: Should have; Kano: Performance (one-dimensional). Visible progress improves planning"
+"Progress reports / export",Story,Medium,"moscow-could kano-performance","MoSCoW: Could have; Kano: Performance (one-dimensional). Useful for managers, can be added after core release"
+"Deadline reminders / notifications",Story,Low,"moscow-could kano-excitement","MoSCoW: Could have; Kano: Excitement (attractive). Not expected, but delights users when present"
+"Dashboard with charts",Story,Low,"moscow-could kano-excitement","MoSCoW: Could have; Kano: Excitement (attractive). Adds delight; not essential for basic operation"
+"AI task suggestions",Story,Lowest,"moscow-wont kano-excitement","MoSCoW: Won't have (this release); Kano: Excitement (attractive). High cost, uncertain value for a small team"
+"Dark mode",Story,Lowest,"moscow-wont kano-indifferent","MoSCoW: Won't have (this release); Kano: Indifferent. Users do not care much either way"
